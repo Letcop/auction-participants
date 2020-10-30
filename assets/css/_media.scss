@@ -1,0 +1,153 @@
+
+
+@media screen and (min-width: 993px) and (max-width: 1257px) {
+body {
+  .head__media_modal{
+    width: 300px;
+    height: 40vh !important;
+    position: absolute !important;
+}
+.mobile_modal_head_page {
+  display: none !important;
+}
+}
+}
+
+@media only screen and(min-width: 768px) and(max-width: 992px) {
+  body {
+    .head_logo_tablet {
+      margin-right: 150px !important;
+    }
+    .head__media_modal{
+      width: 300px;
+      height: 50vh !important;
+      position: absolute !important;
+  }
+  .head_mobile_page {
+    display: none !important; 
+  }
+  .mobile_modal_head_page {
+    display: none !important;
+  }
+  .advertisings .form_info_text {
+    width: 420px !important;
+  }
+  .advertisings_right {
+    width: 100% !important;
+  }
+  .tablet_advertisings_right {
+    margin: 30px  auto!important;
+  }
+}
+}
+@media only screen and(max-width: 767px) {
+  body {
+    .head__media_modal{ 
+      height: 94vh !important;
+    }
+  }
+}
+
+
+@media only screen and(max-width: 567px) {
+  body {
+    .head__main_block {
+      margin-left: 0 !important;
+    }
+    .header_blog_sub_text {
+      font-size: 30px !important;
+    }
+    .yourself_top_title_text {
+      font-size: 25px !important;
+      text-align: center;
+    }
+    .info_right_text span {
+      padding-left: 15px !important;
+    }
+    .place_bet_title p {
+      font-size: 20px !important;
+    }
+    .place_bet_input {
+      margin-left: 5px !important;
+      margin-right: 0 !important;
+    }
+    .place_bet_button {
+      width: 140px !important;
+      margin-left: 5px !important;
+      font-size: 11px !important;
+    }
+    .auction_participants {
+      font-size: 23px !important;
+    }
+    .advertisings_title {
+      font-size: 22px !important;
+      text-align: center;
+    }
+    .send_info form {
+      flex-direction: column;
+    }
+    .line_vertical {
+      display: none;
+    }
+    .form_info_text {
+      width: auto !important;
+    }
+    .mobile_form_info_text {
+      align-items: start !important;
+    }
+    .mobile_form_info_text span{
+      padding-left: 10px !important;
+    }
+    .send_info {
+      padding: 10px !important;
+    }
+    .check_disabled_btn {
+      margin-left: 50px !important;
+      margin-bottom: 20px ;
+    }
+    .advertisings_right {
+      width: 100%;
+      margin-top: 30px;
+    }
+    .place_bet_list input {
+      margin-left: 5px !important;
+    }
+    .place_bet_list label {
+      padding-left: 0 !important;
+    }
+    .yourself_top_btns {
+      label {
+        width: 160px !important;
+        height: 45px;
+      }
+      span {
+        position: absolute;
+        left: 20px !important;
+        bottom: 10px;
+        font-size: 12px !important;
+        font-weight: 500;
+        color: $accent-color;
+      }
+      input:checked ~ .check_btn {
+        position: absolute;
+        width: 160px !important;
+        height: 55px;
+        background-color: $primary-color;
+        top: -10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;   
+      }
+      input:checked ~ span {
+        color: #fff;
+        z-index: 99 !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 368px) {
+  body {
+  }
+}
