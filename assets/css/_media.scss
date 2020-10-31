@@ -38,6 +38,10 @@ body {
   .tablet_advertisings_right {
     margin: 30px  auto!important;
   }
+  .top_info_left .my_advertising {
+    width: 200px !important;
+    height: 100px !important;
+  }
 }
 }
 @media only screen and(max-width: 767px) {
@@ -144,6 +148,10 @@ body {
         color: #fff;
         z-index: 99 !important;
       }
+    }
+    .top_info_left,
+    .yourself_top_info_title {
+      display: none !important;
     }
   }
 }

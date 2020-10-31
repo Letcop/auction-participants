@@ -342,6 +342,12 @@ body .yourself_top_info .auction_participants_list {
   border-radius: 10px;
   padding: 10px 15px 10px 20px;
   margin-top: 30px;
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #ffffff;
 }
 
 body .yourself_top_info .auction_participants_list .user_info {
@@ -376,6 +382,12 @@ body .yourself_top_info .auction_participants_list .user_level {
 
 body .yourself_top_info .auction_participants_list .bet_moneys {
   font-weight: 700;
+}
+
+body .yourself_top_info .auction_participants_list:hover {
+  border-color: #00cf4d;
+  -webkit-transition: .2;
+  transition: .2;
 }
 
 body .advertisings .advertisings_title {
@@ -552,6 +564,10 @@ body .advertisings .checkbox_list input[type='radio']:checked::after {
   body .tablet_advertisings_right {
     margin: 30px auto !important;
   }
+  body .top_info_left .my_advertising {
+    width: 200px !important;
+    height: 100px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -657,6 +673,10 @@ body .advertisings .checkbox_list input[type='radio']:checked::after {
   body .yourself_top_btns input:checked ~ span {
     color: #fff;
     z-index: 99 !important;
+  }
+  body .top_info_left,
+  body .yourself_top_info_title {
+    display: none !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
